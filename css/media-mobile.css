@@ -1,0 +1,117 @@
+@media (max-width: 315px) {
+  body {
+    background-image: url(../images/bg-mobile.svg) !important;
+    margin: 10px 5px;
+  }
+  .logo img {
+    width: 100px;
+  }
+  .img img {
+    width: 225px;
+    margin-left: 30px;
+  }
+  .title {
+    margin-top: 2px;
+    width: 100%;
+  }
+  .name {
+    font-size: 24px;
+    text-align: center;
+  }
+  .p {
+    text-align: center;
+    font-size: 14px;
+  }
+  button {
+    margin-left: 80px;
+  }
+  .icon {
+    margin-top: 45px;
+    margin-left: 80px;
+  }
+}
+
+@media (min-width: 316px) and (max-width: 559px) {
+  body {
+    margin: 10px 20px;
+  }
+  .logo img {
+    width: 100px;
+  }
+  .img img {
+    width: 100%;
+    margin-left: 10px;
+  }
+  .title {
+    margin-top: -10px;
+    width: 100%;
+  }
+  .name {
+    font-size: 28px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .p {
+    font-size: 16px;
+    text-align: center;
+  }
+  button {
+    margin-left: 80px;
+  }
+  .icon {
+    margin-top: 45px;
+    margin-left: 80px;
+  }
+}
+
+@media (min-width: 560px) and (max-width: 700px) {
+  body {
+    margin: 10px 20px;
+  }
+  .logo img {
+    width: 100px;
+  }
+  .img img {
+    width: 80%;
+    margin-left: 45px;
+  }
+  .title {
+    width: 100%;
+    margin-top: 0;
+  }
+  .name {
+    text-align: center;
+  }
+  .p {
+    text-align: center;
+  }
+  button {
+    text-align: center;
+  }
+  .icon {
+    text-align: center;
+    float: right;
+    margin-top: 30px;
+  }
+}
+@media (min-width: 700px) {
+  body {
+    margin: 10px 20px;
+  }
+  .img img {
+    width: 50%;
+  }
+  .title {
+    width: 50%;
+    margin-top: -265px;
+  }
+  .name {
+    font-size: 28px;
+  }
+  .p {
+    font-size: 20px;
+  }
+  .icon {
+    float: right;
+  }
+}
